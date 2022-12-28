@@ -1,3 +1,5 @@
+## HW_GitBash_1
+
 1) Посмотреть где я - pwd
 2) Создать папку – mkdir Ksendzov_git
 3) Зайти в папку - cd Ksendzov_git
@@ -26,18 +28,32 @@ cp f4.txt ../git3/f4.txt
 18) вывести несколько последних строк из текстового файла - tail -2 f1.txt
 19) просмотреть содержимое длинного файла (команда less) изучите как она работает. – less f1.txt
 20) вывести дату и время - date
-Задание * 1) Отправить http запрос на сервер. http://162.55.220.72:5005/terminal-hw-request - 
+### Задание * 
+1) Отправить http запрос на сервер. http://162.55.220.72:5005/terminal-hw-request - 
+
 curl http://162.55.220.72:5006/terminal-hw-request
+
 curl 'http://162.55.220.72:5006/get_method?name=Anatoly&age=35'
+
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13 – 
+
 #!/bin/bash/
+
 cd Ksendzov_git
+
 mkdir git4 git5 git6
+
 cd git4
+
 touch f1.txt f2.txt f3.txt users.json users2.json
+
 mkdir newf_1 newf_2 newf_3
+
 ls -la
+
 cd git4
+
 mv f1.txt ../git5/f1.txt
+
 mv f2.txt ../git5/f2.txt
 
