@@ -1,4 +1,4 @@
-1.	Сделать папку dir_1 - mkdir dir_1
+1. Сделать папку dir_1 - mkdir dir_1
 2. Зайти в папку dir_1 - cd dir_1
 3. Создать папку inner_dir_1 - mkdir inner_dir_1
 4. Посмотреть где ты находишься - pwd
@@ -36,7 +36,7 @@ cat >> tf_2.txt
 the seConD 2
 “Нажать Ctrl+C”
 14. Сделать текстовый файл tf_4.txt в котором будет 15 строк. – 
-1.	cat > tf_4.txt
+cat > tf_4.txt
 line1
 line2
 line3
